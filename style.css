@@ -1,12 +1,24 @@
 .first{
-    border: 20px solid black;
+    border: 3px solid black;
     width: 200px;
     height: 200px;
-    margin: 10px; 
+    
 }
 .second{
-    border: 5px dotted red;
-    width: 50px;
-    height: 100px;
-    padding: 10px;
+    border: 3px solid red;
+    width: 200px;
+    height: 200px;
+    
+}
+.third{
+    border: 3px solid green;
+    width: 200px;
+    height: 200px;
+    
+}
+#main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
 }
