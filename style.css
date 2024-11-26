@@ -1,24 +1,26 @@
-.first{
-    border: 3px solid black;
-    width: 200px;
-    height: 200px;
-    
+*{
+    margin: 0px;
+    padding: 0px;
+/* }
+#list{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    list-style: none;
 }
-.second{
-    border: 3px solid red;
-    width: 200px;
-    height: 200px;
-    
-}
-.third{
-    border: 3px solid green;
-    width: 200px;
-    height: 200px;
-    
-}
-#main{
+#list li a{
+    text-decoration: none;
+    color: green;
+
+} */
+#square {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    flex-wrap:wrap;
 
+}
+#square div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
 }
