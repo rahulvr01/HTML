@@ -120,3 +120,57 @@
     }
 
 }
+@media (max-width:450px){
+
+
+  #bars{
+      position: absolute;
+      top: 12%;
+      right: 5%;
+      font-size: 40px;
+      color: white;
+      z-index: 50;
+  }
+
+
+  #tophead div span{
+      display: none;
+  }
+
+
+  #navbar nav ul{
+      display: none;
+  }
+
+  #inp:checked~#navbar nav ul{
+      display: block;
+      position: absolute;
+      top: 30%;
+      left: 40%;
+      background-color: rgba(222, 184, 135, 0.668);
+      padding: 20px;
+      border-radius: 10px;
+      line-height: 30px;
+  }
+
+  #inp:checked~ main #home div{
+      margin-top: 20%;
+  }
+
+
+  #home{
+      width: 100%;
+      height: 100vh;
+      /* border: 1px solid black; */
+      background-image: url(./Images/hero-bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      align-items: center;
+  
+     
+  }
+  
+
+}
